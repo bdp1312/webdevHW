@@ -1,0 +1,30 @@
+/*css code for menu*/
+<style>
+    ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        border: 1px solid #0000FF;
+        background-color: #00FF00;
+        position: fixed;
+        width: 100%;
+    }
+    li
+    {
+        float: left;
+        border-right: 1px solid #bbb;
+    }
+    li a{
+        display: block;
+        color: #666
+    }
+    li a:hover {
+        background-color: #111
+    }
+    .active{
+        background-color: #ff0000
+    }
+    */
+</style>
+

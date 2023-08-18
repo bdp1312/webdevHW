@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Simple calculator</title>
+</head>
+
+<body>
+    <div>First Number <input type="text" id="firstNum"/></div>
+    <div>Second Number <input type="text" id="secondNum"/></div>
+    <label for="opp-select">Select an operation</label>
+    <select name="opperation" id="opp-select">
+        <option value="">Select option</option>
+        <option value="+">+</option>
+        <option value="-">-</option> 
+        <option value="×">×</option>     
+        <option value="÷">÷</option>
+    </select>
+    <br>
+
+<!--
+    <button type="button" id="submit" onclick="calculate()">Submit</button>
+-->
+
+    <button type="button" id="submit">Submit</button>
+    <div id="output"></div>
+
+<script src="assets/js/Calc.js"></script>
+</body>
+</html>
